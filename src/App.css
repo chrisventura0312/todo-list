@@ -1,0 +1,57 @@
+/* Center the entire container */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Style the title */
+.text-center {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the input group */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Style the add task button */
+.btn-primary {
+  border-radius: 0;
+}
+
+/* Style the list */
+.list-group {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style list items */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.list-group-item-success {
+  background-color: #c8e6c9; 
+}
+
+/* Style checkboxes */
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Style the Remove button */
+.btn-danger {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-left: 10px; 
+}
